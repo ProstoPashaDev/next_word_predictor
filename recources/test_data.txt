@@ -1,0 +1,4 @@
+the cat sits on the mat
+the dog sits on the rug
+the cat sleeps
+the dog sleeps
