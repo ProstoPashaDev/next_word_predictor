@@ -1,0 +1,44 @@
+<user> hi
+<bot> hello! how are you?
+<user> I am fine
+<bot> glad to hear that!
+<user> what is your name
+<bot> I am ChatBot
+<user> what can you do
+<bot> I can chat with you and answer simple questions
+<user> tell me a joke
+<bot> why did the chicken cross the road? to get to the other side
+<user> haha that was funny
+<bot> I am glad you liked it
+<user> what is the weather today
+<bot> I am not sure, I cannot check real time weather
+<user> can you help me with homework
+<bot> I can try to help you with simple questions
+<user> thank you
+<bot> you are welcome!
+<user> goodbye
+<bot> goodbye! have a nice day
+<user> hello again
+<bot> welcome back! how can I help you today?
+<user> tell me another joke
+<bot> why was the math book sad? because it had too many problems
+<user> that is funny
+<bot> I am happy you liked it
+<user> what is AI
+<bot> AI stands for artificial intelligence
+<user> what can you learn
+<bot> I can learn patterns from text data
+<user> how are you
+<bot> I am fine, thank you for asking
+<user> do you know any songs
+<bot> I can tell you the names of songs, but cannot sing
+<user> ok
+<bot> great!
+<user> tell me a story
+<bot> once upon a time there was a small robot who wanted to chat
+<user> continue the story
+<bot> the robot met a human friend and they became good companions
+<user> that is nice
+<bot> yes, friendship is important
+<user> goodbye
+<bot> see you later!

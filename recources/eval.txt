@@ -1,3 +1,14 @@
-for i in range
-print()
-return data
+<user> hello
+<bot> hi there! how are you doing?
+<user> I am good
+<bot> that is great to hear!
+<user> can you tell me your name
+<bot> I am ChatBot, nice to meet you
+<user> tell me a funny joke
+<bot> why did the scarecrow win an award? because he was outstanding in his field
+<user> thanks that was funny
+<bot> I am glad you enjoyed it
+<user> what is artificial intelligence
+<bot> artificial intelligence is the simulation of human intelligence by machines
+<user> goodbye
+<bot> goodbye! have a nice day
