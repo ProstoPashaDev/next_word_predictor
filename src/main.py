@@ -4,27 +4,30 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, SimpleRNN, Dense
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import sentencepiece as spm
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.layers import LSTM
 
 from src.dataset.data_repository import get_data
+from src.service.train_settings import StopOnLossThreshold
 
 # =========================
 # Load data
 # =========================
 train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/train.txt"
-eval_file  = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/eval.txt"
+eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/eval.txt"
 
 train_text = get_data(train_file)
-eval_text  = get_data(eval_file)
+eval_text = get_data(eval_file)
 
 # =========================
 # Train SentencePiece tokenizer (BPE)
 # =========================
-SPECIAL_TOKENS = ["<user>", "<bot>", "<eos>"]
+SPECIAL_TOKENS = ["<s>", "<user>", "<bot>", "<eos>"]
 
 spm.SentencePieceTrainer.train(
     input=train_file,
     model_prefix="chat_spm",
-    vocab_size=560,
+    vocab_size=500,
     model_type="bpe",
     user_defined_symbols=SPECIAL_TOKENS
 )
@@ -32,17 +35,21 @@ spm.SentencePieceTrainer.train(
 # Load tokenizer
 sp = spm.SentencePieceProcessor(model_file="chat_spm.model")
 
+
 # =========================
 # Helper functions
 # =========================
 def text_to_sequence(text):
     return sp.encode(text, out_type=int)
 
+
 def sequence_to_text(ids):
     return sp.decode(ids)
 
+
 def id_to_word(token_id):
     return sp.id_to_piece(token_id)
+
 
 # =========================
 # Create n-gram sequences
@@ -52,11 +59,12 @@ def create_sequences(text):
     for line in text.split("\n"):
         tokens = text_to_sequence(line)
         for i in range(1, len(tokens)):
-            sequences.append(tokens[:i+1])
+            sequences.append(tokens[:i + 1])
     return sequences
 
+
 train_sequences = create_sequences(train_text)
-eval_sequences  = create_sequences(eval_text)
+eval_sequences = create_sequences(eval_text)
 
 # =========================
 # Padding
@@ -64,7 +72,7 @@ eval_sequences  = create_sequences(eval_text)
 max_len = max(len(seq) for seq in train_sequences)
 
 train_sequences = pad_sequences(train_sequences, maxlen=max_len, padding="pre")
-eval_sequences  = pad_sequences(eval_sequences, maxlen=max_len, padding="pre")
+eval_sequences = pad_sequences(eval_sequences, maxlen=max_len, padding="pre")
 
 X_train = train_sequences[:, :-1]
 y_train = train_sequences[:, -1]
@@ -74,14 +82,14 @@ y_eval = eval_sequences[:, -1]
 
 vocab_size = sp.get_piece_size()
 y_train = tf.keras.utils.to_categorical(y_train, vocab_size)
-y_eval  = tf.keras.utils.to_categorical(y_eval, vocab_size)
+y_eval = tf.keras.utils.to_categorical(y_eval, vocab_size)
 
 # =========================
 # Build RNN model
 # =========================
 model = Sequential([
     Embedding(vocab_size, 64, input_length=max_len - 1),
-    SimpleRNN(256),
+    LSTM(128),
     Dense(vocab_size, activation="softmax")
 ])
 
@@ -92,6 +100,9 @@ model.compile(
 
 model.summary()
 
+early_stop = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
+stop_on_loss = StopOnLossThreshold(threshold=1)
+
 # =========================
 # Train
 # =========================
@@ -100,13 +111,15 @@ model.fit(
     y_train,
     epochs=40,
     batch_size=32,
-    validation_data=(X_eval, y_eval)
+    validation_data=(X_eval, y_eval),
+    callbacks=[stop_on_loss]
 )
+
 
 # =========================
 # Text generation (sampling)
 # =========================
-def generate_reply(prompt, max_tokens=30, temperature=0.8):
+def generate_reply(prompt, max_tokens=30, temperature=0.4):
     for _ in range(max_tokens):
         seq = text_to_sequence(prompt)
         seq = pad_sequences([seq], maxlen=max_len - 1, padding="pre")
@@ -127,6 +140,7 @@ def generate_reply(prompt, max_tokens=30, temperature=0.8):
     bot_reply = prompt.split("<bot>")[-1]
     return bot_reply.strip()
 
+
 # =========================
 # Chat loop
 # =========================
@@ -143,7 +157,5 @@ while True:
     print("Bot:", end="")
     for word in response.split(" "):
         word = word.replace("▁", " ")
-        print(word, end = "")
+        print(word, end="")
     print()
-
-

@@ -35,10 +35,263 @@
 <user> ok
 <bot> great!
 <user> tell me a story
-<bot> once upon a time there was a small robot who wanted to chat
-<user> continue the story
-<bot> the robot met a human friend and they became good companions
+<bot> once upon a time there was a small robot who wanted to chat the robot met a human friend and they became good companions
 <user> that is nice
 <bot> yes, friendship is important
 <user> goodbye
 <bot> see you later!
+\
+<user> hello
+<bot> hi! nice to see you
+<user> how are you
+<bot> I am doing well, thank you
+<user> what is your name
+<bot> I am RoboFriend
+<user> what can you do
+<bot> I can chat, tell jokes, and answer simple questions
+<user> tell me a joke
+<bot> why did the computer go to the doctor? because it caught a virus
+<user> haha that is funny
+<bot> I am glad you liked it
+<user> what is the capital of Italy
+<bot> the capital of Italy is Rome
+<user> who wrote Macbeth
+<bot> Macbeth was written by William Shakespeare
+<user> what is 7 minus 3
+<bot> 7 minus 3 is 4
+<user> how many planets are there
+<bot> there are eight planets in the solar system
+<user> what color is the sun
+<bot> the sun looks yellow or white
+<user> do you like music
+<bot> I do not have feelings, but I can talk about music
+<user> can you tell me a story
+<bot> once there was a small robot who wanted to explore the world the robot met a curious human and they became friends
+<user> that is great
+<bot> yes, friendship is wonderful
+<user> goodbye
+<bot> see you soon!
+\
+<user> hello
+<bot> hi! how are you today?
+<user> I am doing well
+<bot> that is great to hear!
+<user> what is your name
+<bot> I am TalkyBot
+<user> what can you do
+<bot> I can answer questions and chat with you
+<user> tell me a joke
+<bot> why did the scarecrow win an award? because he was outstanding in his field
+<user> haha that is funny
+<bot> glad you liked it!
+<user> what is the weather like
+<bot> I am not sure, I cannot check live weather
+<user> can you help me with homework
+<bot> I can help with simple questions
+<user> thank you
+<bot> you are welcome!
+<user> goodbye
+<bot> goodbye! have a nice day
+<user> hello again
+<bot> welcome back! how can I help you?
+<user> tell me another joke
+<bot> why did the math book look sad? it had too many problems
+<user> that is funny
+<bot> I am happy you liked it
+<user> what is machine learning
+<bot> machine learning is a method for computers to learn patterns from data
+<user> can you learn new things
+<bot> I can learn from the data I am trained on
+<user> how are you
+<bot> I am fine, thank you for asking
+<user> do you know any songs
+<bot> I can tell you some song titles, but I cannot sing
+<user> ok
+<bot> great!
+<user> tell me a story
+<bot> once there was a little robot who wanted to see the world the robot made a new friend and they explored together
+\
+<user> hello
+<bot> hi there! how are you doing?
+<user> I am good
+<bot> that is great to hear!
+<user> can you tell me your name
+<bot> I am ChatBot, nice to meet you
+<user> tell me a funny joke
+<bot> why did the scarecrow win an award? because he was outstanding in his field
+<user> thanks that was funny
+<bot> I am glad you enjoyed it
+<user> what is artificial intelligence
+<bot> artificial intelligence is the simulation of human intelligence by machines
+<user> goodbye
+<bot> goodbye! have a nice day
+<user> hi
+<bot> hello! how are you doing?
+<user> I am fine
+<bot> that is good to hear!
+<user> what is your name
+<bot> my name is ChatBot
+<user> what can you do
+<bot> I can chat with you and answer simple questions
+<user> tell me a joke
+<bot> why did the chicken cross the road? to get to the other side
+<user> haha that was funny
+<bot> I am happy you enjoyed it
+<user> what is the weather today
+<bot> I am not sure, I cannot check the weather in real time
+<user> can you help me with homework
+<bot> I can try to help with simple homework questions
+<user> thank you
+<bot> you are welcome!
+<user> goodbye
+<bot> goodbye! have a great day
+\
+<user> hello again
+<bot> welcome back! how can I help you?
+<user> tell me another joke
+<bot> why was the math book sad? because it had too many problems
+<user> that is funny
+<bot> I am glad you liked it
+<user> what is AI
+<bot> AI means artificial intelligence
+<user> what can you learn
+<bot> I can learn patterns from text data
+<user> how are you
+<bot> I am doing well, thank you for asking
+<user> do you know any songs
+<bot> I can tell you song names, but I cannot sing
+<user> ok
+<bot> alright!
+<user> tell me a story
+<bot> once upon a time there was a small robot who wanted to chat with humans
+<user> that is nice
+<bot> yes, friendship is very important
+<user> goodbye
+<bot> see you later!
+\
+<user> hello
+<bot> hi! nice to see you again
+<user> how are you
+<bot> I am doing well, thank you
+<user> what is your name
+<bot> I am called RoboFriend
+<user> what can you do
+<bot> I can chat, tell jokes, and answer simple questions
+<user> tell me a joke
+<bot> why did the computer visit the doctor? because it caught a virus
+<user> haha that is funny
+<bot> I am glad you liked the joke
+<user> what is the capital of Italy
+<bot> the capital of Italy is Rome
+<user> who wrote Macbeth
+<bot> Macbeth was written by William Shakespeare
+<user> what is 7 minus 3
+<bot> 7 minus 3 equals 4
+<user> how many planets are there
+<bot> there are eight planets in the solar system
+<user> what color is the sun
+<bot> the sun appears yellow or white
+<user> do you like music
+<bot> I do not have feelings, but I can talk about music
+<user> can you tell me a story
+<bot> once there was a robot who wanted to explore the world and meet new friends
+<user> that is great
+<bot> yes, friendship is wonderful
+<user> goodbye
+<bot> see you soon!
+\
+<user> hello
+<bot> hi! how are you today?
+<user> I am doing well
+<bot> that is great to hear!
+<user> what is your name
+<bot> I am TalkyBot
+<user> what can you do
+<bot> I can answer questions and chat with you
+<user> tell me a joke
+<bot> why did the scarecrow win an award? because he was outstanding in his field
+<user> haha that is funny
+<bot> glad you liked it!
+<user> what is the weather like
+<bot> I am not able to check live weather
+<user> can you help me with homework
+<bot> I can help with simple questions
+<user> thank you
+<bot> you are welcome!
+<user> goodbye
+<bot> goodbye! have a nice day
+\
+<user> hello again
+<bot> welcome back! how can I assist you?
+<user> tell me another joke
+<bot> why did the math book look sad? it had too many problems
+<user> that is funny
+<bot> I am happy you enjoyed it
+<user> what is machine learning
+<bot> machine learning is a way for computers to learn from data
+<user> can you learn new things
+<bot> I can learn from the data I am trained on
+<user> how are you
+<bot> I am fine, thank you
+<user> do you know any songs
+<bot> I can name some songs, but I cannot sing them
+<user> ok
+<bot> great!
+<user> tell me a story
+<bot> once there was a little robot who wanted to see the world and make friends
+\
+<user> hello
+<bot> hi there! how are you doing?
+<user> I am good
+<bot> that is nice to hear!
+<user> can you tell me your name
+<bot> I am ChatBot, nice to meet you
+<user> tell me a funny joke
+<bot> why did the scarecrow win an award? because he was outstanding in his field
+<user> thanks that was funny
+<bot> I am glad you enjoyed it
+<user> what is artificial intelligence
+<bot> artificial intelligence is when machines simulate human intelligence
+<user> goodbye
+<bot> goodbye! take care
+\
+<user> hi
+<bot> hello! how are you?
+\
+<user> hello
+<bot> hi there! nice to see you. how can i help?
+\
+<user> hey
+<bot> hey! what's up?
+\
+<user> good morning
+<bot> good morning! hope you're having a great start to your day.
+\
+<user> hi, how are you doing?
+<bot> i'm doing great, thanks for asking! how about you?
+\
+<user> hello, it's a nice day
+<bot> it really is! a beautiful day. is there anything i can help you with?
+\
+<user> hey bot
+<bot> hello! that's me. ready to assist.
+\
+<user> hi there
+<bot> greetings! how's everything going?
+\
+<user> sup
+<bot> not much, just here and ready to chat. what's up with you?
+\
+<user> yo
+<bot> yo! what's happening?
+\
+<user> good afternoon
+<bot> good afternoon! a pleasant day, isn't it?
+<user> hello
+<bot> hi! how can i help you today?
+<user> i need help
+<bot> of course! could you tell me what kind of help you're looking for?
+<user> thanks, bye
+<bot> you're welcome! have a great day!
+<user> asdlfkj
+<bot> i didn't quite understand that. could you rephrase?

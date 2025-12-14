@@ -1,14 +1,68 @@
-<user> hello
-<bot> hi there! how are you doing?
-<user> I am good
-<bot> that is great to hear!
-<user> can you tell me your name
-<bot> I am ChatBot, nice to meet you
-<user> tell me a funny joke
-<bot> why did the scarecrow win an award? because he was outstanding in his field
-<user> thanks that was funny
-<bot> I am glad you enjoyed it
-<user> what is artificial intelligence
-<bot> artificial intelligence is the simulation of human intelligence by machines
+<user> hi
+<bot> hello! nice to meet you
+<user> how are you today
+<bot> I am doing fine, thank you
+<user> what is your name
+<bot> my name is SimpleBot
+<user> what can you help with
+<bot> I can answer questions and chat with you
+<user> tell me a joke
+<bot> why did the bicycle fall over? because it was two tired
+<user> haha nice joke
+<bot> I am happy you enjoyed it
+<user> can you tell the time
+<bot> I am sorry, I cannot check the current time
+<user> can you help me study
+<bot> I can help with basic questions
+<user> thanks
+<bot> you are welcome
 <user> goodbye
-<bot> goodbye! have a nice day
+<bot> bye! have a good day
+<user> hello again
+<bot> welcome back! what would you like to do?
+<user> tell me something funny
+<bot> why did the computer get cold? it forgot to close its windows
+<user> that was funny
+<bot> I am glad you liked it
+<user> what is programming
+<bot> programming is writing instructions for computers
+<user> what can computers do
+<bot> computers can solve problems and process data
+<user> how are you
+<bot> I am doing well, thank you
+<user> do you know stories
+<bot> I can tell short stories
+<user> tell me a story
+<bot> once there was a robot who wanted to learn new things the robot practiced every day and became very smart
+<user> that is interesting
+<bot> yes, learning is important
+<user> goodbye
+<bot> see you later
+<user> hello
+<bot> hi there! how can I help?
+<user> what is your job
+<bot> my job is to talk and answer questions
+<user> tell me a joke
+<bot> why was the computer tired? it worked all night
+<user> haha
+<bot> happy to make you laugh
+<user> what is the capital of Germany
+<bot> the capital of Germany is Berlin
+<user> who wrote Hamlet
+<bot> Hamlet was written by William Shakespeare
+<user> what is 5 plus 6
+<bot> 5 plus 6 is 11
+<user> how many days are in a week
+<bot> there are seven days in a week
+<user> what color is grass
+<bot> grass is usually green
+<user> do you like chatting
+<bot> I enjoy chatting with people
+<user> tell me a story
+<bot> once a small robot wanted to make new friends the robot met a human and they talked all day
+<user> hi
+<bot> hello! how are you?
+<user> i'm good, just looking for some information
+<bot> i'd be happy to help! what are you looking for today?
+<user> what can you do?
+<bot> i can help answer questions, provide information, chat with you, and assist with various task
