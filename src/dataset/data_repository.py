@@ -1,6 +1,6 @@
 
 def get_data(filename):
-    f = open(filename, "r")
+    f = open(filename, "r", encoding="UTF-8")
     x = f.readline().strip()
     text = ""
     while x != "":
@@ -12,5 +12,5 @@ def get_data(filename):
         else:
             text += ("<s> " + x + " ")
         x = f.readline().strip()
-    print(text)
+    #print(text)
     return text

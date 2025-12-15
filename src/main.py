@@ -13,11 +13,16 @@ from src.service.train_settings import StopOnLossThreshold
 # =========================
 # Load data
 # =========================
-train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/train.txt"
-eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/eval.txt"
+train_file_greetings = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/train.txt"
+eval_file_greetings = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/eval.txt"
 
-train_text = get_data(train_file)
-eval_text = get_data(eval_file)
+train_file_dialog = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dial_train.txt"
+eval_file_dialog = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dial_eval.txt"
+
+train_text = get_data(train_file_greetings)
+train_text += get_data(train_file_dialog)
+eval_text = get_data(eval_file_greetings)
+eval_text += get_data(eval_file_dialog)
 
 # =========================
 # Train SentencePiece tokenizer (BPE)
@@ -25,7 +30,7 @@ eval_text = get_data(eval_file)
 SPECIAL_TOKENS = ["<s>", "<user>", "<bot>", "<eos>"]
 
 spm.SentencePieceTrainer.train(
-    input=train_file,
+    input=train_file_greetings,
     model_prefix="chat_spm",
     vocab_size=500,
     model_type="bpe",
