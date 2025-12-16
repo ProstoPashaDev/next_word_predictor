@@ -15,10 +15,12 @@ from src.service.train_settings import StopOnLossThreshold
 # Parameters tuning
 # =========================
 
-LSTM_UNITS = 128
-EMDEB = 64
-VOCABULARY_SIZE = 1800
-TEMPERATURE = 0.6
+LSTM_UNITS = 192
+EMDEB = 128
+VOCABULARY_SIZE = 2500
+TEMPERATURE = 0.5
+DROPOUT = 0.2
+RECURRENT_DROPOUT = 0.2
 
 # =========================
 # Load data
@@ -38,12 +40,16 @@ word_meaning_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recou
 simple_dialog_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_train.txt"
 simple_dialog_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_eval.txt"
 
+economic_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/economic_train.txt"
+economic_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/economic_eval.txt"
+
 train_text = "\n".join([f for f in [
     get_data(simple_train_file),
     #get_data(diff_quest_train_file, num_rows=100),
     #get_data(word_meaning_train_file, num_rows=100)
     #get_data(dial_train_file, num_rows=100)
-    get_data(simple_dialog_train_file)
+    #get_data(simple_dialog_train_file),
+    get_data(economic_train_file),
 ]])
 
 print(train_text)
@@ -53,7 +59,8 @@ eval_text = "\n".join([f for f in [
     #get_data(diff_quest_eval_file, num_rows=10),
     #get_data(word_meaning_eval_file, num_rows=10)
     #get_data(dial_eval_file, num_rows=100)
-    get_data(simple_dialog_eval_file)
+    #get_data(simple_dialog_eval_file),
+    get_data(economic_eval_file),
 ]])
 
 print()
@@ -137,7 +144,7 @@ y_eval = tf.keras.utils.to_categorical(y_eval, vocab_size)
 # =========================
 model = Sequential([
     Embedding(vocab_size, EMDEB, input_length=max_len - 1),
-    Bidirectional(LSTM(LSTM_UNITS)),
+    Bidirectional(LSTM(LSTM_UNITS, dropout=DROPOUT, recurrent_dropout=RECURRENT_DROPOUT)),
     #LSTM(LSTM_UNITS),
     Dense(vocab_size, activation="softmax")
 ])
@@ -161,7 +168,8 @@ model.fit(
     epochs=40,
     batch_size=32,
     validation_data=(X_eval, y_eval),
-    callbacks=[stop_on_loss, early_stop]
+    #callbacks=[stop_on_loss, early_stop]
+    callbacks=[early_stop]
 )
 
 
