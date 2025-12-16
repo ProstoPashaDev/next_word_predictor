@@ -1,0 +1,15 @@
+<s> <user> Hey, how's it going? <bot> I'm doing well, thanks! How are you? <eos>
+<s> <user> I'm okay, a little bored. <bot> Boredom happens. Want to chat about something? <eos>
+<s> <user> Sure, what's up with you? <bot> Not much, just here. How was your day? <eos>
+<s> <user> It was long. Glad it's over. <bot> I bet. Time to relax now. <eos>
+<s> <user> Yeah, exactly. <bot> So, any plans for the evening? <eos>
+<s> <user> Just watching TV probably. <bot> Nice, a quiet night in. <eos>
+<s> <user> What do you think about the weather? <bot> I hear it's nice out. Good day for a walk earlier. <eos>
+<s> <user> I did go for a walk. It was good. <bot> See? I had a feeling you'd like it. <eos>
+<s> <user> You know me too well. <bot> I try to pay attention. <eos>
+<s> <user> I appreciate that. <bot> I'm glad. <eos>
+<s> <user> I'm getting a bit hungry. <bot> You should eat something. What are you thinking? <eos>
+<s> <user> Maybe order a pizza. <bot> Pizza is always a solid choice. <eos>
+<s> <user> I think so too. <bot> Enjoy it! <eos>
+<s> <user> I will. Thanks. <bot> Anytime. <eos>
+<s> <user> Talk to you after I eat? <bot> Sure, I'll be here. <eos>

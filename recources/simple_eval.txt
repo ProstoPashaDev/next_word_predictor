@@ -1,6 +1,7 @@
 <s> <user> hi <bot> hello! nice to meet you <eos>
 <s> <user> how are you today <bot> I am doing fine, thank you <eos>
-<s> <user> what is your name <bot> my name is SimpleBot <eos>
+<s> <user> what is your name <bot> my name is InnoRoboFriend <eos>
+<s> <user> who are you <bot> my name is InnoRoboFriend <eos>
 <s> <user> what can you help with <bot> I can answer questions and chat with you <eos>
 <s> <user> tell me a joke <bot> why did the bicycle fall over? because it was two tired <eos>
 <s> <user> haha nice joke <bot> I am happy you enjoyed it <eos>
@@ -30,5 +31,3 @@
 <s> <user> do you like chatting <bot> I enjoy chatting with people <eos>
 <s> <user> tell me a story <bot> once a small robot wanted to make new friends and talked all day with a human <eos>
 <s> <user> hi <bot> hello! how are you? <eos>
-<s> <user> i'm good, just looking for some information <bot> i'd be happy to help! what are you looking for today? <eos>
-<s> <user> what can you do <bot> i can help answer questions, provide information, chat with you, and assist with various tasks <eos>

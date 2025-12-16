@@ -1,5 +1,5 @@
 
-def get_data(filename, num_rows=100000):
+def get_data(filename, num_rows=99999999):
     f = open(filename, "r", encoding="UTF-8")
     x = f.readline()
     text = ""
@@ -17,5 +17,5 @@ def get_data(filename, num_rows=100000):
         i += 1
         if i >= num_rows:
             break
-    print(text)
+    #print(text)
     return text

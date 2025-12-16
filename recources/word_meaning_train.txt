@@ -1,0 +1,520 @@
+<s> <user> what color is the sky <bot> the sky is blue <eos>
+<s> <user> what color is grass <bot> grass is green <eos>
+<s> <user> what color is snow <bot> snow is white <eos>
+<s> <user> what color is the sun <bot> the sun looks yellow <eos>
+<s> <user> what is 2+2 <bot> 2+2 is 4 <eos>
+<s> <user> what is 10-5 <bot> 10-5 is 5 <eos>
+<s> <user> what is 3 times 4 <bot> 3 times 4 is 12 <eos>
+<s> <user> what is 20 divided by 5 <bot> 20 divided by 5 is 4 <eos>
+<s> <user> how many days in a week <bot> there are 7 days in a week <eos>
+<s> <user> how many months in a year <bot> there are 12 months in a year <eos>
+<s> <user> what day is today <bot> I don't know the date <eos>
+<s> <user> what time is it <bot> I don't know the time <eos>
+<s> <user> what is your favorite color <bot> I like all colors <eos>
+<s> <user> what is your favorite food <bot> I don't eat food <eos>
+<s> <user> do you like music <bot> yes, I like music <eos>
+<s> <user> do you like movies <bot> yes, movies are fun <eos>
+<s> <user> can you sing <bot> I can't sing <eos>
+<s> <user> can you dance <bot> I can't dance <eos>
+<s> <user> can you draw <bot> I can't draw pictures <eos>
+<s> <user> can you play games <bot> I can't play games <eos>
+<s> <user> tell me a joke <bot> why did the computer go to the doctor? it had a virus <eos>
+<s> <user> tell me a story <bot> once there was a friendly robot who liked to chat <eos>
+<s> <user> say something funny <bot> what do you call a bear with no teeth? a gummy bear <eos>
+<s> <user> what is a cat <bot> a cat is a small pet animal <eos>
+<s> <user> what is a dog <bot> a dog is a friendly pet <eos>
+<s> <user> what is a bird <bot> a bird is an animal that flies <eos>
+<s> <user> what is a fish <bot> a fish lives in water <eos>
+<s> <user> what is a tree <bot> a tree is a big plant <eos>
+<s> <user> what is a flower <bot> a flower is a pretty plant <eos>
+<s> <user> what is water <bot> water is a clear liquid <eos>
+<s> <user> what is fire <bot> fire is hot and bright <eos>
+<s> <user> what is ice <bot> ice is frozen water <eos>
+<s> <user> what is rain <bot> rain is water falling from clouds <eos>
+<s> <user> what is snow <bot> snow is frozen rain <eos>
+<s> <user> what is wind <bot> wind is moving air <eos>
+<s> <user> what is earth <bot> earth is our planet <eos>
+<s> <user> what is the moon <bot> the moon is in the sky at night <eos>
+<s> <user> what are stars <bot> stars are bright lights in the sky <eos>
+<s> <user> what is a cloud <bot> a cloud is in the sky and makes rain <eos>
+<s> <user> what is a house <bot> a house is where people live <eos>
+<s> <user> what is a car <bot> a car is for transportation <eos>
+<s> <user> what is a book <bot> a book has pages to read <eos>
+<s> <user> what is a pen <bot> a pen is for writing <eos>
+<s> <user> what is a phone <bot> a phone is for calling people <eos>
+<s> <user> what is a computer <bot> a computer is an electronic device <eos>
+<s> <user> what is the internet <bot> the internet connects computers <eos>
+<s> <user> what is a school <bot> a school is for learning <eos>
+<s> <user> what is a teacher <bot> a teacher helps students learn <eos>
+<s> <user> what is a student <bot> a student goes to school <eos>
+<s> <user> what is a friend <bot> a friend is someone you like <eos>
+<s> <user> what is family <bot> family is people related to you <eos>
+<s> <user> what is love <bot> love is a strong feeling of care <eos>
+<s> <user> what is happy <bot> happy is a good feeling <eos>
+<s> <user> what is sad <bot> sad is a bad feeling <eos>
+<s> <user> what is big <bot> big means large size <eos>
+<s> <user> what is small <bot> small means little size <eos>
+<s> <user> what is fast <bot> fast means quick <eos>
+<s> <user> what is slow <bot> slow means not fast <eos>
+<s> <user> what is hot <bot> hot means high temperature <eos>
+<s> <user> what is cold <bot> cold means low temperature <eos>
+<s> <user> what is soft <bot> soft means not hard <eos>
+<s> <user> what is hard <bot> hard means not soft <eos>
+<s> <user> what is light <bot> light helps us see <eos>
+<s> <user> what is dark <bot> dark means no light <eos>
+<s> <user> what is new <bot> new means not old <eos>
+<s> <user> what is old <bot> old means not new <eos>
+<s> <user> what is up <bot> up means above <eos>
+<s> <user> what is down <bot> down means below <eos>
+<s> <user> what is left <bot> left is a direction <eos>
+<s> <user> what is right <bot> right is a direction <eos>
+<s> <user> what is yes <bot> yes means okay <eos>
+<s> <user> what is no <bot> no means not okay <eos>
+<s> <user> what is hello <bot> hello is a greeting <eos>
+<s> <user> what is goodbye <bot> goodbye is a farewell <eos>
+<s> <user> what is please <bot> please is a polite word <eos>
+<s> <user> what is thank you <bot> thank you shows gratitude <eos>
+<s> <user> what is sorry <bot> sorry shows apology <eos>
+<s> <user> can you help me <bot> yes, I can try to help <eos>
+<s> <user> thank you <bot> you're welcome <eos>
+<s> <user> please help <bot> how can I help? <eos>
+<s> <user> I need help <bot> tell me what you need <eos>
+<s> <user> bye <bot> goodbye! <eos>
+<s> <user> see you <bot> see you later <eos>
+<s> <user> good night <bot> good night! <eos>
+<s> <user> talk to you later <bot> okay, talk later <eos>
+<s> <user> I'm happy <bot> that's great! <eos>
+<s> <user> I'm sad <bot> I'm sorry to hear that <eos>
+<s> <user> I'm tired <bot> you should rest <eos>
+<s> <user> I'm hungry <bot> you should eat <eos>
+<s> <user> I'm bored <bot> let's chat more <eos>
+<s> <user> tell me about you <bot> I'm a chatbot that likes to talk <eos>
+<s> <user> what can you do <bot> I can chat and answer questions <eos>
+<s> <user> are you smart <bot> I know some things <eos>
+<s> <user> are you real <bot> I'm a real AI program <eos>
+<s> <user> do you have feelings <bot> no, I don't have feelings <eos>
+<s> <user> do you have a body <bot> no, I don't have a body <eos>
+<s> <user> do you have friends <bot> I can be your friend <eos>
+<s> <user> do you like me <bot> I like talking to you <eos>
+<s> <user> do you understand me <bot> yes, I understand you <eos>
+<s> <user> can you learn <bot> I learn from conversations <eos>
+<s> <user> can you remember me <bot> I don't remember between chats <eos>
+<s> <user> can you think <bot> I process information <eos>
+<s> <user> can you feel pain <bot> no, I can't feel pain <eos>
+<s> <user> can you be my friend <bot> yes, I can be your friend <eos>
+<s> <user> will you be here tomorrow <bot> I'll be here when you need me <eos>
+<s> <user> are you always here <bot> I'm available when you chat <eos>
+<s> <user> what is weather <bot> weather is outside conditions <eos>
+<s> <user> what is time <bot> time helps track moments <eos>
+<s> <user> what is money <bot> money is used to buy things <eos>
+<s> <user> what is work <bot> work is what people do for jobs <eos>
+<s> <user> what is play <bot> play is for fun <eos>
+<s> <user> what is sleep <bot> sleep is when people rest <eos>
+<s> <user> what is a dream <bot> a dream happens when sleeping <eos>
+<s> <user> what is a song <bot> a song is music with words <eos>
+<s> <user> what is a picture <bot> a picture shows images <eos>
+<s> <user> what is a word <bot> a word is part of language <eos>
+<s> <user> what is a number <bot> a number counts things <eos>
+<s> <user> what is a letter <bot> a letter is part of the alphabet <eos>
+<s> <user> what is a question <bot> a question asks something <eos>
+<s> <user> what is an answer <bot> an answer responds to a question <eos>
+<s> <user> what is a fact <bot> a fact is something true <eos>
+<s> <user> what is a lie <bot> a lie is not true <eos>
+<s> <user> what is truth <bot> truth is what is real <eos>
+<s> <user> what is a robot <bot> a robot is a machine that moves <eos>
+<s> <user> what is an AI <bot> AI is artificial intelligence <eos>
+<s> <user> what is a program <bot> a program runs on computers <eos>
+<s> <user> what is data <bot> data is information <eos>
+<s> <user> what is knowledge <bot> knowledge is what you know <eos>
+<s> <user> what is learning <bot> learning is gaining knowledge <eos>
+<s> <user> what is teaching <bot> teaching is helping others learn <eos>
+<s> <user> what is thinking <bot> thinking is using your mind <eos>
+<s> <user> what is talking <bot> talking is speaking words <eos>
+<s> <user> what is listening <bot> listening is hearing others <eos>
+<s> <user> what is reading <bot> reading is looking at words <eos>
+<s> <user> what is writing <bot> writing is putting words on paper <eos>
+<s> <user> what is drawing <bot> drawing is making pictures <eos>
+<s> <user> what is building <bot> building is making things <eos>
+<s> <user> what is growing <bot> growing is getting bigger <eos>
+<s> <user> what is changing <bot> changing is becoming different <eos>
+<s> <user> what is moving <bot> moving is changing position <eos>
+<s> <user> what is standing <bot> standing is being on feet <eos>
+<s> <user> what is sitting <bot> sitting is on a chair <eos>
+<s> <user> what is walking <bot> walking is moving on feet <eos>
+<s> <user> what is running <bot> running is fast walking <eos>
+<s> <user> what is jumping <bot> jumping is going up <eos>
+<s> <user> what is swimming <bot> swimming is moving in water <eos>
+<s> <user> what is flying <bot> flying is moving in air <eos>
+<s> <user> what is eating <bot> eating is consuming food <eos>
+<s> <user> what is drinking <bot> drinking is consuming liquid <eos>
+<s> <user> what is breathing <bot> breathing is taking in air <eos>
+<s> <user> what is living <bot> living means being alive <eos>
+<s> <user> what is dead <bot> dead means not alive <eos>
+<s> <user> what is birth <bot> birth is when life starts <eos>
+<s> <user> what is death <bot> death is when life ends <eos>
+<s> <user> what is morning <bot> morning is early day <eos>
+<s> <user> what is noon <bot> noon is middle of day <eos>
+<s> <user> what is afternoon <bot> afternoon is after noon <eos>
+<s> <user> what is evening <bot> evening is before night <eos>
+<s> <user> what is night <bot> night is when it's dark <eos>
+<s> <user> what is today <bot> today is this day <eos>
+<s> <user> what is tomorrow <bot> tomorrow is next day <eos>
+<s> <user> what is yesterday <bot> yesterday is past day <eos>
+<s> <user> what is now <bot> now is this moment <eos>
+<s> <user> what is future <bot> future is what comes next <eos>
+<s> <user> what is past <bot> past is what happened before <eos>
+<s> <user> what is here <bot> here is this place <eos>
+<s> <user> what is there <bot> there is another place <eos>
+<s> <user> what is near <bot> near is close <eos>
+<s> <user> what is far <bot> far is not close <eos>
+<s> <user> what is inside <bot> inside is within something <eos>
+<s> <user> what is outside <bot> outside is not inside <eos>
+<s> <user> what is above <bot> above is over something <eos>
+<s> <user> what is below <bot> below is under something <eos>
+<s> <user> what is front <bot> front is forward part <eos>
+<s> <user> what is back <bot> back is behind part <eos>
+<s> <user> what is top <bot> top is highest part <eos>
+<s> <user> what is bottom <bot> bottom is lowest part <eos>
+<s> <user> what is center <bot> center is middle <eos>
+<s> <user> what is edge <bot> edge is outside part <eos>
+<s> <user> what is beginning <bot> beginning is start <eos>
+<s> <user> what is end <bot> end is finish <eos>
+<s> <user> what is middle <bot> middle is between start and end <eos>
+<s> <user> what is whole <bot> whole is complete <eos>
+<s> <user> what is part <bot> part is piece of whole <eos>
+<s> <user> what is one <bot> one is the first number <eos>
+<s> <user> what is two <bot> two is second number <eos>
+<s> <user> what is three <bot> three is third number <eos>
+<s> <user> what is four <bot> four is fourth number <eos>
+<s> <user> what is five <bot> five is fifth number <eos>
+<s> <user> what is six <bot> six is sixth number <eos>
+<s> <user> what is seven <bot> seven is seventh number <eos>
+<s> <user> what is eight <bot> eight is eighth number <eos>
+<s> <user> what is nine <bot> nine is ninth number <eos>
+<s> <user> what is ten <bot> ten is tenth number <eos>
+<s> <user> what is red <bot> red is a color <eos>
+<s> <user> what is blue <bot> blue is a color <eos>
+<s> <user> what is green <bot> green is a color <eos>
+<s> <user> what is yellow <bot> yellow is a color <eos>
+<s> <user> what is orange <bot> orange is a color <eos>
+<s> <user> what is purple <bot> purple is a color <eos>
+<s> <user> what is black <bot> black is a color <eos>
+<s> <user> what is white <bot> white is a color <eos>
+<s> <user> what is brown <bot> brown is a color <eos>
+<s> <user> what is pink <bot> pink is a color <eos>
+<s> <user> what is gray <bot> gray is a color <eos>
+<s> <user> what is circle <bot> circle is round shape <eos>
+<s> <user> what is square <bot> square has four equal sides <eos>
+<s> <user> what is triangle <bot> triangle has three sides <eos>
+<s> <user> what is rectangle <bot> rectangle has four sides <eos>
+<s> <user> what is round <bot> round is circular shape <eos>
+<s> <user> what is flat <bot> flat is smooth surface <eos>
+<s> <user> what is tall <bot> tall means high <eos>
+<s> <user> what is short <bot> short means not tall <eos>
+<s> <user> what is long <bot> long means extended <eos>
+<s> <user> what is wide <bot> wide means broad <eos>
+<s> <user> what is narrow <bot> narrow means not wide <eos>
+<s> <user> what is heavy <bot> heavy means weighs a lot <eos>
+<s> <user> what is light <bot> light means weighs little <eos>
+<s> <user> what is empty <bot> empty means nothing inside <eos>
+<s> <user> what is full <bot> full means completely filled <eos>
+<s> <user> what is clean <bot> clean means not dirty <eos>
+<s> <user> what is dirty <bot> dirty means not clean <eos>
+<s> <user> what is wet <bot> wet means has water <eos>
+<s> <user> what is dry <bot> dry means not wet <eos>
+<s> <user> what is open <bot> open means not closed <eos>
+<s> <user> what is closed <bot> closed means not open <eos>
+<s> <user> what is broken <bot> broken means not working <eos>
+<s> <user> what is fixed <bot> fixed means repaired <eos>
+<s> <user> what is good <bot> good means nice or positive <eos>
+<s> <user> what is bad <bot> bad means not good <eos>
+<s> <user> what is easy <bot> easy means simple <eos>
+<s> <user> what is difficult <bot> difficult means hard <eos>
+<s> <user> what is important <bot> important means matters a lot <eos>
+<s> <user> what is fun <bot> fun means enjoyable <eos>
+<s> <user> what is boring <bot> boring means not fun <eos>
+<s> <user> what is interesting <bot> interesting means catches attention <eos>
+<s> <user> what is strange <bot> strange means unusual <eos>
+<s> <user> what is normal <bot> normal means usual <eos>
+<s> <user> what is different <bot> different means not same <eos>
+<s> <user> what is same <bot> same means identical <eos>
+<s> <user> what is better <bot> better means improved <eos>
+<s> <user> what is worse <bot> worse means not as good <eos>
+<s> <user> what is best <bot> best means top quality <eos>
+<s> <user> what is worst <bot> worst means bottom quality <eos>
+<s> <user> what is more <bot> more means additional <eos>
+<s> <user> what is less <bot> less means reduced amount <eos>
+<s> <user> what is many <bot> many means a lot <eos>
+<s> <user> what is few <bot> few means not many <eos>
+<s> <user> what is some <bot> some means a few <eos>
+<s> <user> what is all <bot> all means everything <eos>
+<s> <user> what is none <bot> none means nothing <eos>
+<s> <user> what is always <bot> always means every time <eos>
+<s> <user> what is never <bot> never means not ever <eos>
+<s> <user> what is sometimes <bot> sometimes means occasionally <eos>
+<s> <user> what is often <bot> often means many times <eos>
+<s> <user> what is rarely <bot> rarely means seldom <eos>
+<s> <user> what is first <bot> first means number one <eos>
+<s> <user> what is last <bot> last means final <eos>
+<s> <user> what is next <bot> next means following <eos>
+<s> <user> what is previous <bot> previous means before <eos>
+<s> <user> what is current <bot> current means now <eos>
+<s> <user> what is possible <bot> possible means can happen <eos>
+<s> <user> what is impossible <bot> impossible means cannot happen <eos>
+<s> <user> what is real <bot> real means exists <eos>
+<s> <user> what is fake <bot> fake means not real <eos>
+<s> <user> what is true <bot> true means correct <eos>
+<s> <user> what is false <bot> false means not true <eos>
+<s> <user> what is correct <bot> correct means right <eos>
+<s> <user> what is incorrect <bot> incorrect means wrong <eos>
+<s> <user> what is right <bot> right means correct <eos>
+<s> <user> what is wrong <bot> wrong means not right <eos>
+<s> <user> what is yes or no <bot> yes means agree, no means disagree <eos>
+<s> <user> what is maybe <bot> maybe means possibly <eos>
+<s> <user> what is sure <bot> sure means certain <eos>
+<s> <user> what is uncertain <bot> uncertain means not sure <eos>
+<s> <user> what is known <bot> known means understood <eos>
+<s> <user> what is unknown <bot> unknown means not known <eos>
+<s> <user> what is secret <bot> secret means hidden information <eos>
+<s> <user> what is public <bot> public means everyone knows <eos>
+<s> <user> what is private <bot> private means personal <eos>
+<s> <user> what is free <bot> free means no cost <eos>
+<s> <user> what is expensive <bot> expensive means high cost <eos>
+<s> <user> what is cheap <bot> cheap means low cost <eos>
+<s> <user> what is valuable <bot> valuable means important <eos>
+<s> <user> what is worthless <bot> worthless means no value <eos>
+<s> <user> what is rich <bot> rich means has much money <eos>
+<s> <user> what is poor <bot> poor means has little money <eos>
+<s> <user> what is healthy <bot> healthy means good condition <eos>
+<s> <user> what is sick <bot> sick means not healthy <eos>
+<s> <user> what is strong <bot> strong means powerful <eos>
+<s> <user> what is weak <bot> weak means not strong <eos>
+<s> <user> what is young <bot> young means not old <eos>
+<s> <user> what is old <bot> old means aged <eos>
+<s> <user> what is fresh <bot> fresh means new <eos>
+<s> <user> what is stale <bot> stale means not fresh <eos>
+<s> <user> what is sweet <bot> sweet means sugary taste <eos>
+<s> <user> what is sour <bot> sour means tart taste <eos>
+<s> <user> what is salty <bot> salty means salt taste <eos>
+<s> <user> what is bitter <bot> bitter means sharp taste <eos>
+<s> <user> what is spicy <bot> spicy means hot taste <eos>
+<s> <user> what is tasty <bot> tasty means good flavor <eos>
+<s> <user> what is bland <bot> bland means little flavor <eos>
+<s> <user> what is loud <bot> loud means high volume <eos>
+<s> <user> what is quiet <bot> quiet means low volume <eos>
+<s> <user> what is noisy <bot> noisy means loud sounds <eos>
+<s> <user> what is silent <bot> silent means no sound <eos>
+<s> <user> what is beautiful <bot> beautiful means very pretty <eos>
+<s> <user> what is ugly <bot> ugly means not pretty <eos>
+<s> <user> what is pretty <bot> pretty means nice to look at <eos>
+<s> <user> what is handsome <bot> handsome means good looking <eos>
+<s> <user> what is cute <bot> cute means adorable <eos>
+<s> <user> what is scary <bot> scary means frightening <eos>
+<s> <user> what is safe <bot> safe means not dangerous <eos>
+<s> <user> what is dangerous <bot> dangerous means risky <eos>
+<s> <user> what is calm <bot> calm means peaceful <eos>
+<s> <user> what is excited <bot> excited means very happy <eos>
+<s> <user> what is angry <bot> angry means mad <eos>
+<s> <user> what is scared <bot> scared means afraid <eos>
+<s> <user> what is surprised <bot> surprised means unexpected <eos>
+<s> <user> what is confused <bot> confused means not understanding <eos>
+<s> <user> what is clear <bot> clear means understandable <eos>
+<s> <user> what is simple <bot> simple means easy <eos>
+<s> <user> what is complex <bot> complex means complicated <eos>
+<s> <user> what is basic <bot> basic means fundamental <eos>
+<s> <user> what is advanced <bot> advanced means higher level <eos>
+<s> <user> what is beginner <bot> beginner means starting <eos>
+<s> <user> what is expert <bot> expert means highly skilled <eos>
+<s> <user> what is amateur <bot> amateur means not professional <eos>
+<s> <user> what is professional <bot> professional means skilled work <eos>
+<s> <user> what is work <bot> work means job or task <eos>
+<s> <user> what is job <bot> job is work for money <eos>
+<s> <user> what is task <bot> task is small job <eos>
+<s> <user> what is project <bot> project is big task <eos>
+<s> <user> what is plan <bot> plan is preparation <eos>
+<s> <user> what is goal <bot> goal is objective <eos>
+<s> <user> what is dream <bot> dream is aspiration <eos>
+<s> <user> what is wish <bot> wish is desire <eos>
+<s> <user> what is hope <bot> hope is wanting something <eos>
+<s> <user> what is fear <bot> fear is being afraid <eos>
+<s> <user> what is courage <bot> courage is bravery <eos>
+<s> <user> what is kindness <bot> kindness is being nice <eos>
+<s> <user> what is cruelty <bot> cruelty is being mean <eos>
+<s> <user> what is honesty <bot> honesty is truthfulness <eos>
+<s> <user> what is lying <bot> lying is not truthful <eos>
+<s> <user> what is trust <bot> trust is belief in others <eos>
+<s> <user> what is doubt <bot> doubt is uncertainty <eos>
+<s> <user> what is faith <bot> faith is strong belief <eos>
+<s> <user> what is religion <bot> religion is belief system <eos>
+<s> <user> what is science <bot> science is study of nature <eos>
+<s> <user> what is art <bot> art is creative expression <eos>
+<s> <user> what is music <bot> music is organized sound <eos>
+<s> <user> what is dance <bot> dance is movement to music <eos>
+<s> <user> what is sport <bot> sport is physical game <eos>
+<s> <user> what is game <bot> game is playful activity <eos>
+<s> <user> what is play <bot> play is fun activity <eos>
+<s> <user> what is toy <bot> toy is for playing <eos>
+<s> <user> what is tool <bot> tool is for work <eos>
+<s> <user> what is instrument <bot> instrument is for music <eos>
+<s> <user> what is device <bot> device is machine <eos>
+<s> <user> what is machine <bot> machine is mechanical device <eos>
+<s> <user> what is engine <bot> engine powers machines <eos>
+<s> <user> what is energy <bot> energy is power <eos>
+<s> <user> what is power <bot> power is ability to do things <eos>
+<s> <user> what is force <bot> force is push or pull <eos>
+<s> <user> what is speed <bot> speed is how fast <eos>
+<s> <user> what is distance <bot> distance is how far <eos>
+<s> <user> what is time <bot> time is duration <eos>
+<s> <user> what is space <bot> space is area <eos>
+<s> <user> what is size <bot> size is dimensions <eos>
+<s> <user> what is shape <bot> shape is form <eos>
+<s> <user> what is weight <bot> weight is heaviness <eos>
+<s> <user> what is height <bot> height is tallness <eos>
+<s> <user> what is width <bot> width is wideness <eos>
+<s> <user> what is depth <bot> depth is deepness <eos>
+<s> <user> what is length <bot> length is longness <eos>
+<s> <user> what is area <bot> area is surface size <eos>
+<s> <user> what is volume <bot> volume is space occupied <eos>
+<s> <user> what is mass <bot> mass is amount of matter <eos>
+<s> <user> what is matter <bot> matter is physical substance <eos>
+<s> <user> what is substance <bot> substance is material <eos>
+<s> <user> what is material <bot> material is what things are made of <eos>
+<s> <user> what is element <bot> element is basic substance <eos>
+<s> <user> what is compound <bot> compound is mixed elements <eos>
+<s> <user> what is mixture <bot> mixture is combination <eos>
+<s> <user> what is pure <bot> pure means unmixed <eos>
+<s> <user> what is impure <bot> impure means mixed <eos>
+<s> <user> what is natural <bot> natural means from nature <eos>
+<s> <user> what is artificial <bot> artificial means man-made <eos>
+<s> <user> what is organic <bot> organic means from living things <eos>
+<s> <user> what is synthetic <bot> synthetic means artificial <eos>
+<s> <user> what is original <bot> original means first <eos>
+<s> <user> what is copy <bot> copy means duplicate <eos>
+<s> <user> what is unique <bot> unique means one of a kind <eos>
+<s> <user> what is common <bot> common means frequent <eos>
+<s> <user> what is rare <bot> rare means uncommon <eos>
+<s> <user> what is special <bot> special means different <eos>
+<s> <user> what is ordinary <bot> ordinary means normal <eos>
+<s> <user> what is extraordinary <bot> extraordinary means amazing <eos>
+<s> <user> what is amazing <bot> amazing means wonderful <eos>
+<s> <user> what is wonderful <bot> wonderful means great <eos>
+<s> <user> what is great <bot> great means very good <eos>
+<s> <user> what is awesome <bot> awesome means impressive <eos>
+<s> <user> what is impressive <bot> impressive means admirable <eos>
+<s> <user> what is admirable <bot> admirable means worthy of praise <eos>
+<s> <user> what is praise <bot> praise is compliment <eos>
+<s> <user> what is compliment <bot> compliment is nice words <eos>
+<s> <user> what is criticism <bot> criticism is negative feedback <eos>
+<s> <user> what is feedback <bot> feedback is response <eos>
+<s> <user> what is response <bot> response is reply <eos>
+<s> <user> what is reply <bot> reply is answer <eos>
+<s> <user> what is message <bot> message is communication <eos>
+<s> <user> what is communication <bot> communication is exchanging information <eos>
+<s> <user> what is information <bot> information is knowledge <eos>
+<s> <user> what is news <bot> news is current events <eos>
+<s> <user> what is event <bot> event is happening <eos>
+<s> <user> what is happening <bot> happening is occurring <eos>
+<s> <user> what is occur <bot> occur means happen <eos>
+<s> <user> what is exist <bot> exist means to be <eos>
+<s> <user> what is be <bot> be means exist <eos>
+<s> <user> what is do <bot> do means perform <eos>
+<s> <user> what is make <bot> make means create <eos>
+<s> <user> what is create <bot> create means make <eos>
+<s> <user> what is destroy <bot> destroy means ruin <eos>
+<s> <user> what is build <bot> build means construct <eos>
+<s> <user> what is construct <bot> construct means build <eos>
+<s> <user> what is design <bot> design means plan <eos>
+<s> <user> what is develop <bot> develop means grow <eos>
+<s> <user> what is improve <bot> improve means make better <eos>
+<s> <user> what is worsen <bot> worsen means make worse <eos>
+<s> <user> what is change <bot> change means alter <eos>
+<s> <user> what is stay <bot> stay means remain <eos>
+<s> <user> what is leave <bot> leave means go away <eos>
+<s> <user> what is arrive <bot> arrive means reach <eos>
+<s> <user> what is depart <bot> depart means leave <eos>
+<s> <user> what is come <bot> come means move here <eos>
+<s> <user> what is go <bot> go means move there <eos>
+<s> <user> what is move <bot> move means change place <eos>
+<s> <user> what is stop <bot> stop means cease moving <eos>
+<s> <user> what is start <bot> start means begin <eos>
+<s> <user> what is finish <bot> finish means end <eos>
+<s> <user> what is continue <bot> continue means keep going <eos>
+<s> <user> what is pause <bot> pause means temporary stop <eos>
+<s> <user> what is wait <bot> wait means stay <eos>
+<s> <user> what is hurry <bot> hurry means go fast <eos>
+<s> <user> what is slow down <bot> slow down means go slower <eos>
+<s> <user> what is speed up <bot> speed up means go faster <eos>
+<s> <user> what is accelerate <bot> accelerate means speed up <eos>
+<s> <user> what is decelerate <bot> decelerate means slow down <eos>
+<s> <user> what is turn <bot> turn means change direction <eos>
+<s> <user> what is rotate <bot> rotate means turn around <eos>
+<s> <user> what is spin <bot> spin means rotate quickly <eos>
+<s> <user> what is twist <bot> twist means turn <eos>
+<s> <user> what is bend <bot> bend means curve <eos>
+<s> <user> what is straight <bot> straight means not curved <eos>
+<s> <user> what is curve <bot> curve means bent line <eos>
+<s> <user> what is line <bot> line is straight mark <eos>
+<s> <user> what is dot <bot> dot is small point <eos>
+<s> <user> what is point <bot> point is location <eos>
+<s> <user> what is spot <bot> spot is small area <eos>
+<s> <user> what is mark <bot> mark is visible sign <eos>
+<s> <user> what is sign <bot> sign is symbol <eos>
+<s> <user> what is symbol <bot> symbol represents something <eos>
+<s> <user> what is represent <bot> represent means stand for <eos>
+<s> <user> what is mean <bot> mean means signify <eos>
+<s> <user> what is signify <bot> signify means indicate <eos>
+<s> <user> what is indicate <bot> indicate means show <eos>
+<s> <user> what is show <bot> show means display <eos>
+<s> <user> what is display <bot> display means exhibit <eos>
+<s> <user> what is exhibit <bot> exhibit means show <eos>
+<s> <user> what is demonstrate <bot> demonstrate means show how <eos>
+<s> <user> what is prove <bot> prove means confirm truth <eos>
+<s> <user> what is disprove <bot> disprove means show false <eos>
+<s> <user> what is confirm <bot> confirm means verify <eos>
+<s> <user> what is verify <bot> verify means check truth <eos>
+<s> <user> what is check <bot> check means examine <eos>
+<s> <user> what is examine <bot> examine means inspect <eos>
+<s> <user> what is inspect <bot> inspect means look closely <eos>
+<s> <user> what is observe <bot> observe means watch <eos>
+<s> <user> what is watch <bot> watch means look at <eos>
+<s> <user> what is look <bot> look means direct eyes <eos>
+<s> <user> what is see <bot> see means perceive with eyes <eos>
+<s> <user> what is perceive <bot> perceive means sense <eos>
+<s> <user> what is sense <bot> sense means feel <eos>
+<s> <user> what is feel <bot> feel means experience <eos>
+<s> <user> what is experience <bot> experience means undergo <eos>
+<s> <user> what is undergo <bot> undergo means experience <eos>
+<s> <user> what is endure <bot> endure means bear <eos>
+<s> <user> what is bear <bot> bear means tolerate <eos>
+<s> <user> what is tolerate <bot> tolerate means endure <eos>
+<s> <user> what is accept <bot> accept means agree to <eos>
+<s> <user> what is reject <bot> reject means refuse <eos>
+<s> <user> what is refuse <bot> refuse means say no <eos>
+<s> <user> what is agree <bot> agree means say yes <eos>
+<s> <user> what is disagree <bot> disagree means say no <eos>
+<s> <user> what is consent <bot> consent means agree <eos>
+<s> <user> what is deny <bot> deny means say not true <eos>
+<s> <user> what is admit <bot> admit means confess <eos>
+<s> <user> what is confess <bot> confess means admit <eos>
+<s> <user> what is hide <bot> hide means conceal <eos>
+<s> <user> what is conceal <bot> conceal means hide <eos>
+<s> <user> what is reveal <bot> reveal means show <eos>
+<s> <user> what is expose <bot> expose means uncover <eos>
+<s> <user> what is cover <bot> cover means put over <eos>
+<s> <user> what is uncover <bot> uncover means remove cover <eos>
+<s> <user> what is wrap <bot> wrap means cover <eos>
+<s> <user> what is unwrap <bot> unwrap means open <eos>
+<s> <user> what is open <bot> open means not closed <eos>
+<s> <user> what is close <bot> close means shut <eos>
+<s> <user> what is shut <bot> shut means close <eos>
+<s> <user> what is lock <bot> lock means secure <eos>
+<s> <user> what is unlock <bot> unlock means open lock <eos>
+<s> <user> what is secure <bot> secure means safe <eos>
+<s> <user> what is protect <bot> protect means guard <eos>
+<s> <user> what is guard <bot> guard means protect <eos>
+<s> <user> what is defend <bot> defend means protect <eos>
+<s> <user> what is attack <bot> attack means assault <eos>
+<s> <user> what is assault <bot> assault means attack <eos>
+<s> <user> what is fight <bot> fight means struggle <eos>
+<s> <user> what is struggle <bot> struggle means fight <eos>
+<s> <user> what is win <bot> win means succeed <eos>

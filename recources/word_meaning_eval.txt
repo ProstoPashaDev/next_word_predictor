@@ -1,0 +1,97 @@
+<s> <user> what is lose <bot> lose means fail <eos>
+<s> <user> what is succeed <bot> succeed means win <eos>
+<s> <user> what is fail <bot> fail means not succeed <eos>
+<s> <user> what is try <bot> try means attempt <eos>
+<s> <user> what is attempt <bot> attempt means try <eos>
+<s> <user> what is effort <bot> effort means work <eos>
+<s> <user> what is work hard <bot> work hard means try much <eos>
+<s> <user> what is relax <bot> relax means rest <eos>
+<s> <user> what is rest <bot> rest means relax <eos>
+<s> <user> what is sleep <bot> sleep means rest deeply <eos>
+<s> <user> what is awake <bot> awake means not sleeping <eos>
+<s> <user> what is wake up <bot> wake up means stop sleeping <eos>
+<s> <user> what is dream <bot> dream means sleeping thoughts <eos>
+<s> <user> what is nightmare <bot> nightmare means bad dream <eos>
+<s> <user> what is daydream <bot> daydream means waking fantasy <eos>
+<s> <user> what is fantasy <bot> fantasy means imagination <eos>
+<s> <user> what is imagination <bot> imagination means creative mind <eos>
+<s> <user> what is creative <bot> creative means inventive <eos>
+<s> <user> what is inventive <bot> inventive means creative <eos>
+<s> <user> what is innovative <bot> innovative means new idea <eos>
+<s> <user> what is idea <bot> idea is thought <eos>
+<s> <user> what is thought <bot> thought is mental process <eos>
+<s> <user> what is think <bot> think means use mind <eos>
+<s> <user> what is ponder <bot> ponder means think deeply <eos>
+<s> <user> what is consider <bot> consider means think about <eos>
+<s> <user> what is decide <bot> decide means choose <eos>
+<s> <user> what is choose <bot> choose means select <eos>
+<s> <user> what is select <bot> select means choose <eos>
+<s> <user> what is pick <bot> pick means choose <eos>
+<s> <user> what is option <bot> option is choice <eos>
+<s> <user> what is choice <bot> choice is selection <eos>
+<s> <user> what is alternative <bot> alternative is other option <eos>
+<s> <user> what is preference <bot> preference is liking <eos>
+<s> <user> what is like <bot> like means enjoy <eos>
+<s> <user> what is dislike <bot> dislike means not like <eos>
+<s> <user> what is love <bot> love means strong like <eos>
+<s> <user> what is hate <bot> hate means strong dislike <eos>
+<s> <user> what is adore <bot> adore means love much <eos>
+<s> <user> what is despise <bot> despise means hate much <eos>
+<s> <user> what is admire <bot> admire means respect <eos>
+<s> <user> what is respect <bot> respect means honor <eos>
+<s> <user> what is honor <bot> honor means respect <eos>
+<s> <user> what is dignity <bot> dignity means self-respect <eos>
+<s> <user> what is pride <bot> pride means self-esteem <eos>
+<s> <user> what is humble <bot> humble means not proud <eos>
+<s> <user> what is modest <bot> modest means humble <eos>
+<s> <user> what is arrogant <bot> arrogant means too proud <eos>
+<s> <user> what is boast <bot> boast means brag <eos>
+<s> <user> what is brag <bot> brag means boast <eos>
+<s> <user> what is show off <bot> show off means display proudly <eos>
+<s> <user> what is modest <bot> modest means not showing off <eos>
+<s> <user> what is shy <bot> shy means timid <eos>
+<s> <user> what is timid <bot> timid means shy <eos>
+<s> <user> what is bold <bot> bold means brave <eos>
+<s> <user> what is brave <bot> brave means courageous <eos>
+<s> <user> what is cowardly <bot> cowardly means not brave <eos>
+<s> <user> what is fearful <bot> fearful means afraid <eos>
+<s> <user> what is anxious <bot> anxious means worried <eos>
+<s> <user> what is worried <bot> worried means anxious <eos>
+<s> <user> what is nervous <bot> nervous means anxious <eos>
+<s> <user> what is calm <bot> calm means peaceful <eos>
+<s> <user> what is peaceful <bot> peaceful means calm <eos>
+<s> <user> what is tranquil <bot> tranquil means peaceful <eos>
+<s> <user> what is serene <bot> serene means very calm <eos>
+<s> <user> what is chaotic <bot> chaotic means disorderly <eos>
+<s> <user> what is disorderly <bot> disorderly means chaotic <eos>
+<s> <user> what is orderly <bot> orderly means organized <eos>
+<s> <user> what is organized <bot> organized means arranged <eos>
+<s> <user> what is arranged <bot> arranged means ordered <eos>
+<s> <user> what is order <bot> order means arrangement <eos>
+<s> <user> what is disorder <bot> disorder means chaos <eos>
+<s> <user> what is neat <bot> neat means tidy <eos>
+<s> <user> what is tidy <bot> tidy means neat <eos>
+<s> <user> what is messy <bot> messy means untidy <eos>
+<s> <user> what is untidy <bot> untidy means messy <eos>
+<s> <user> what is clean <bot> clean means not dirty <eos>
+<s> <user> what is dirty <bot> dirty means not clean <eos>
+<s> <user> what is wash <bot> wash means clean with water <eos>
+<s> <user> what is rinse <bot> rinse means wash lightly <eos>
+<s> <user> what is scrub <bot> scrub means wash hard <eos>
+<s> <user> what is polish <bot> polish means make shiny <eos>
+<s> <user> what is shine <bot> shine means reflect light <eos>
+<s> <user> what is glow <bot> glow means soft light <eos>
+<s> <user> what is sparkle <bot> sparkle means shine brightly <eos>
+<s> <user> what is glitter <bot> glitter means sparkle <eos>
+<s> <user> what is twinkle <bot> twinkle means sparkle <eos>
+<s> <user> what is flash <bot> flash means quick light <eos>
+<s> <user> what is blink <bot> blink means flash quickly <eos>
+<s> <user> what is flicker <bot> flicker means unsteady light <eos>
+<s> <user> what is burn <bot> burn means on fire <eos>
+<s> <user> what is fire <bot> fire means flames <eos>
+<s> <user> what is flame <bot> flame is fire <eos>
+<s> <user> what is smoke <bot> smoke is from fire <eos>
+<s> <user> what is ash <bot> ash is burnt remains <eos>
+<s> <user> what is ember <bot> ember is hot coal <eos>
+<s> <user> what is coal <bot> coal is black fuel <eos>
+<s> <user> what is wood <bot> wood is from trees <eos>

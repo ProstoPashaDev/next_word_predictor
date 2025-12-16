@@ -6,9 +6,18 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import sentencepiece as spm
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import LSTM
+from tensorflow.keras.layers import Bidirectional
 
 from src.dataset.data_repository import get_data
 from src.service.train_settings import StopOnLossThreshold
+
+# =========================
+# Parameters tuning
+# =========================
+
+LSTM_UNITS = 128
+EMDEB = 64
+VOCABULARY_SIZE = 2000
 
 # =========================
 # Load data
@@ -19,23 +28,58 @@ simple_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/s
 dial_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dialog_train_string_split.txt"
 dial_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dialog_eval_string_split.txt"
 
-train_text = get_data(simple_train_file)
-#train_text += "\n" + get_data(dial_train_file, num_rows=0)
-eval_text = get_data(simple_eval_file)
-#eval_text += "\n" + get_data(dial_eval_file, num_rows=0)
+diff_quest_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/different_questions_train.txt"
+diff_quest_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/different_questions_eval.txt"
+
+word_meaning_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/word_meaning_train.txt"
+word_meaning_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/word_meaning_eval.txt"
+
+simple_dialog_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_train.txt"
+simple_dialog_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_eval.txt"
+
+
+train_text = "\n".join([f for f in [
+        get_data(simple_train_file),
+        #get_data(diff_quest_train_file, num_rows=100),
+        #get_data(word_meaning_train_file, num_rows=100)
+        #get_data(dial_train_file, num_rows=100)
+        get_data(simple_dialog_train_file)
+]])
+
+print(train_text)
+
+eval_text = "\n".join([f for f in [
+    get_data(simple_eval_file),
+    #get_data(diff_quest_eval_file, num_rows=10),
+    #get_data(word_meaning_eval_file, num_rows=10)
+    #get_data(dial_eval_file, num_rows=100)
+    get_data(simple_dialog_eval_file)
+]])
+
+print()
+print("========================================")
+print()
+
+print(eval_text)
 
 # =========================
 # Train SentencePiece tokenizer (BPE)
 # =========================
 SPECIAL_TOKENS = ["<s>", "<user>", "<bot>", "<eos>"]
 
+spm_input_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/spm_input.txt"
+
+with open(spm_input_file, "w", encoding="utf-8") as f:
+    f.write(train_text)
+
 spm.SentencePieceTrainer.train(
-    input=simple_train_file,
+    input=spm_input_file,
     model_prefix="chat_spm",
-    vocab_size=500,
+    vocab_size=VOCABULARY_SIZE,
     model_type="bpe",
     user_defined_symbols=SPECIAL_TOKENS
 )
+
 
 # Load tokenizer
 sp = spm.SentencePieceProcessor(model_file="chat_spm.model")
@@ -93,8 +137,9 @@ y_eval = tf.keras.utils.to_categorical(y_eval, vocab_size)
 # Build RNN model
 # =========================
 model = Sequential([
-    Embedding(vocab_size, 64, input_length=max_len - 1),
-    LSTM(128),
+    Embedding(vocab_size, EMDEB, input_length=max_len - 1),
+    Bidirectional(LSTM(LSTM_UNITS)),
+    #LSTM(LSTM_UNITS),
     Dense(vocab_size, activation="softmax")
 ])
 
@@ -117,14 +162,14 @@ model.fit(
     epochs=40,
     batch_size=32,
     validation_data=(X_eval, y_eval),
-    callbacks=[stop_on_loss]
+    callbacks=[stop_on_loss, early_stop]
 )
 
 
 # =========================
 # Text generation (sampling)
 # =========================
-def generate_reply(prompt, max_tokens=30, temperature=0.4):
+def generate_reply(prompt, max_tokens=30, temperature=0.7):
     for _ in range(max_tokens):
         seq = text_to_sequence(prompt)
         seq = pad_sequences([seq], maxlen=max_len - 1, padding="pre")
