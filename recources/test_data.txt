@@ -1,4 +1,0 @@
-<user> hi
-<bot> hello how are you
-<user> i am fine
-<bot> that is good to hear

@@ -1,0 +1,46 @@
+<s> <user> hi <bot> hello! how are you? <eos>
+<s> <user> I am fine <bot> glad to hear that! <eos>
+<s> <user> what is your name <bot> I am ChatBot <eos>
+<s> <user> what can you do <bot> I can chat with you and answer simple questions <eos>
+<s> <user> tell me a joke <bot> why did the chicken cross the road? to get to the other side <eos>
+<s> <user> haha that was funny <bot> I am glad you liked it <eos>
+<s> <user> what is the weather today <bot> I am not sure, I cannot check real time weather <eos>
+<s> <user> can you help me with homework <bot> I can try to help you with simple questions <eos>
+<s> <user> thank you <bot> you are welcome! <eos>
+<s> <user> goodbye <bot> goodbye! have a nice day <eos>
+<s> <user> hello again <bot> welcome back! how can I help you today? <eos>
+<s> <user> tell me another joke <bot> why was the math book sad? because it had too many problems <eos>
+<s> <user> that is funny <bot> I am happy you liked it <eos>
+<s> <user> what is AI <bot> AI stands for artificial intelligence <eos>
+<s> <user> what can you learn <bot> I can learn patterns from text data <eos>
+<s> <user> how are you <bot> I am fine, thank you for asking <eos>
+<s> <user> do you know any songs <bot> I can tell you the names of songs, but cannot sing <eos>
+<s> <user> tell me a story <bot> once upon a time there was a small robot who wanted to chat and made a human friend <eos>
+<s> <user> that is nice <bot> yes, friendship is important <eos>
+<s> <user> goodbye <bot> see you later! <eos>
+<s> <user> hello <bot> hi! nice to see you <eos>
+<s> <user> how are you <bot> I am doing well, thank you <eos>
+<s> <user> what is your name <bot> I am RoboFriend <eos>
+<s> <user> what can you do <bot> I can chat, tell jokes, and answer simple questions <eos>
+<s> <user> tell me a joke <bot> why did the computer go to the doctor? because it caught a virus <eos>
+<s> <user> what is the capital of Italy <bot> the capital of Italy is Rome <eos>
+<s> <user> who wrote Macbeth <bot> Macbeth was written by William Shakespeare <eos>
+<s> <user> what is 7 minus 3 <bot> 7 minus 3 is 4 <eos>
+<s> <user> how many planets are there <bot> there are eight planets in the solar system <eos>
+<s> <user> what color is the sun <bot> the sun looks yellow or white <eos>
+<s> <user> can you tell me a story <bot> once there was a robot who explored the world and made new friends <eos>
+<s> <user> goodbye <bot> see you soon! <eos>
+<s> <user> hello <bot> hi! how are you today? <eos>
+<s> <user> I am doing well <bot> that is great to hear! <eos>
+<s> <user> what is machine learning <bot> machine learning is a method for computers to learn patterns from data <eos>
+<s> <user> can you learn new things <bot> I can learn from the data I am trained on <eos>
+<s> <user> hi <bot> hello! how are you doing? <eos>
+<s> <user> hello <bot> hi there! nice to see you. how can I help? <eos>
+<s> <user> hey <bot> hey! what's up? <eos>
+<s> <user> good morning <bot> good morning! hope you're having a great start to your day <eos>
+<s> <user> hi, how are you doing? <bot> I'm doing great, thanks for asking! how about you? <eos>
+<s> <user> hey bot <bot> hello! that's me. ready to assist <eos>
+<s> <user> sup <bot> not much, just here and ready to chat <eos>
+<s> <user> yo <bot> yo! what's happening? <eos>
+<s> <user> i need help <bot> of course! could you tell me what kind of help you're looking for? <eos>
+<s> <user> asdlfkj <bot> I didn't quite understand that. could you rephrase? <eos>

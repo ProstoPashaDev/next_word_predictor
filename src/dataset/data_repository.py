@@ -1,16 +1,21 @@
 
-def get_data(filename):
+def get_data(filename, num_rows=100000):
     f = open(filename, "r", encoding="UTF-8")
-    x = f.readline().strip()
+    x = f.readline()
     text = ""
+    i = 0
     while x != "":
-        if x == "\\":
-            x = f.readline().strip()
-            continue
-        if x.split(" ")[0] == "<bot>":
-            text += (x + " <eos>\n")
-        else:
-            text += ("<s> " + x + " ")
-        x = f.readline().strip()
-    #print(text)
+        #if x == "\\":
+            #x = f.readline().strip()
+            #continue
+        #if x.split(" ")[0] == "<bot>":
+            #text += (x + " <eos>\n")
+        #else:
+            #text += ("<s> " + x + " ")
+        text += x
+        x = f.readline()
+        i += 1
+        if i >= num_rows:
+            break
+    print(text)
     return text
