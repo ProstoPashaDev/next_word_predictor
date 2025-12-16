@@ -17,7 +17,8 @@ from src.service.train_settings import StopOnLossThreshold
 
 LSTM_UNITS = 128
 EMDEB = 64
-VOCABULARY_SIZE = 2000
+VOCABULARY_SIZE = 1800
+TEMPERATURE = 0.6
 
 # =========================
 # Load data
@@ -37,13 +38,12 @@ word_meaning_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recou
 simple_dialog_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_train.txt"
 simple_dialog_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_eval.txt"
 
-
 train_text = "\n".join([f for f in [
-        get_data(simple_train_file),
-        #get_data(diff_quest_train_file, num_rows=100),
-        #get_data(word_meaning_train_file, num_rows=100)
-        #get_data(dial_train_file, num_rows=100)
-        get_data(simple_dialog_train_file)
+    get_data(simple_train_file),
+    #get_data(diff_quest_train_file, num_rows=100),
+    #get_data(word_meaning_train_file, num_rows=100)
+    #get_data(dial_train_file, num_rows=100)
+    get_data(simple_dialog_train_file)
 ]])
 
 print(train_text)
@@ -79,7 +79,6 @@ spm.SentencePieceTrainer.train(
     model_type="bpe",
     user_defined_symbols=SPECIAL_TOKENS
 )
-
 
 # Load tokenizer
 sp = spm.SentencePieceProcessor(model_file="chat_spm.model")
@@ -167,9 +166,26 @@ model.fit(
 
 
 # =========================
+# Top k sampling
+# =========================
+def top_k_sampling(probs, k=20):
+    # Get top-k token indices
+    top_k_indices = np.argsort(probs)[-k:]
+
+    # Extract probabilities
+    top_k_probs = probs[top_k_indices]
+
+    # Renormalize
+    top_k_probs = top_k_probs / np.sum(top_k_probs)
+
+    # Sample
+    return np.random.choice(top_k_indices, p=top_k_probs)
+
+
+# =========================
 # Text generation (sampling)
 # =========================
-def generate_reply(prompt, max_tokens=30, temperature=0.7):
+def generate_reply(prompt, max_tokens=30, temperature=TEMPERATURE):
     for _ in range(max_tokens):
         seq = text_to_sequence(prompt)
         seq = pad_sequences([seq], maxlen=max_len - 1, padding="pre")
@@ -179,6 +195,9 @@ def generate_reply(prompt, max_tokens=30, temperature=0.7):
         probs = np.exp(preds) / np.sum(np.exp(preds))
 
         next_id = np.random.choice(len(probs), p=probs)
+        #next_id = top_k_sampling(probs, k=20)
+        #next_id = int(next_id)
+
         next_word = id_to_word(next_id)
 
         prompt += " " + next_word

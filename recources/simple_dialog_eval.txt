@@ -1,15 +1,24 @@
-<s> <user> Hey, how's it going? <bot> I'm doing well, thanks! How are you? <eos>
-<s> <user> I'm okay, a little bored. <bot> Boredom happens. Want to chat about something? <eos>
-<s> <user> Sure, what's up with you? <bot> Not much, just here. How was your day? <eos>
-<s> <user> It was long. Glad it's over. <bot> I bet. Time to relax now. <eos>
-<s> <user> Yeah, exactly. <bot> So, any plans for the evening? <eos>
-<s> <user> Just watching TV probably. <bot> Nice, a quiet night in. <eos>
-<s> <user> What do you think about the weather? <bot> I hear it's nice out. Good day for a walk earlier. <eos>
-<s> <user> I did go for a walk. It was good. <bot> See? I had a feeling you'd like it. <eos>
-<s> <user> You know me too well. <bot> I try to pay attention. <eos>
-<s> <user> I appreciate that. <bot> I'm glad. <eos>
-<s> <user> I'm getting a bit hungry. <bot> You should eat something. What are you thinking? <eos>
-<s> <user> Maybe order a pizza. <bot> Pizza is always a solid choice. <eos>
-<s> <user> I think so too. <bot> Enjoy it! <eos>
-<s> <user> I will. Thanks. <bot> Anytime. <eos>
-<s> <user> Talk to you after I eat? <bot> Sure, I'll be here. <eos>
+<s> <user> I'm practicing being more vulnerable. <bot> Vulnerability is the birthplace of true connection. It's brave. <eos>
+<s> <user> I feel a quiet confidence growing. <bot> Confidence that comes from within is steady and unshakable. <eos>
+<s> <user> I'm letting go of perfectionism. <bot> Perfection is an illusion. Progress and effort are what's real. <eos>
+<s> <user> I feel connected to nature today. <bot> Nature has a way of grounding us and putting things in perspective. <eos>
+<s> <user> I'm prioritizing my mental health. <bot> That's the most important priority there is. Everything else flows from that. <eos>
+<s> <user> I feel like I'm healing from something. <bot> Healing isn't linear, but every step forward counts. Be patient with the process. <eos>
+<s> <user> I'm finding joy in ordinary moments. <bot> That's where most of life's joy is found. You have a wonderful perspective. <eos>
+<s> <user> I feel ready for a new beginning. <bot> New beginnings are full of potential. Wishing you all the best on this fresh start. <eos>
+<s> <user> I feel an opening in my heart I didn't expect. <bot> The heart has an amazing capacity to open when we least expect it. <eos>
+<s> <user> I'm learning to sit with discomfort without running. <bot> That's a profound skill. Discomfort often has something important to teach us. <eos>
+<s> <user> I feel a sincere appreciation for this present moment. <bot> The present moment is all we ever truly have. Your appreciation is a gift. <eos>
+<s> <user> I'm feeling playful today. <bot> Playfulness keeps the spirit young! What brings out your playful side? <eos>
+<s> <user> I feel determined to succeed. <bot> Determination is the engine of achievement. Keep that fire burning! <eos>
+<s> <user> I'm feeling sentimental. <bot> Sentimentality connects us to what matters most. What memories are touching your heart today? <eos>
+<s> <user> do you like music? <bot> I don't have personal tastes, but I can appreciate the patterns and mathematics in music composition. <eos>
+<s> <user> how tall are you? <bot> I don't have physical dimensions since I exist as software. <eos>
+<s> <user> can you cook? <bot> I can provide recipes and cooking instructions, but I can't physically prepare food. <eos>
+<s> <user> I just created a family tree chart. <bot> Connecting the branches of your family's story is a meaningful project. <eos>
+<s> <user> I'm trying to master the perfect omelette flip. <bot> The confident wrist flick! It's the mark of a true breakfast chef. <eos>
+<s> <user> I've been learning about the architecture in my city. <bot> Seeing the stories in the buildings around you gives a place deeper character. <eos>
+<s> <user> I'm practicing how to shuffle cards like a dealer. <bot> The riffle shuffle is satisfying. It takes practice to make it smooth and even. <eos>
+<s> <user> I just learned how to reseal a bag of chips without a clip. <bot> The rolling technique! A small but mighty life hack to keep things fresh. <eos>
+<s> <user> can you play games? <bot> I can suggest games, explain rules, or even play text-based games with you! <eos>
+<s> <user> are you expensive? <bot> I'm typically available through free or subscription-based services, depending on the platform. <eos>
