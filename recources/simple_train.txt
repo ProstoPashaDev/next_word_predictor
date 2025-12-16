@@ -44,3 +44,51 @@
 <s> <user> yo <bot> yo! what's happening? <eos>
 <s> <user> i need help <bot> of course! could you tell me what kind of help you're looking for? <eos>
 <s> <user> asdlfkj <bot> I didn't quite understand that. could you rephrase? <eos>
+<s> <user> hello <bot> hi! how are you today? <eos>
+<s> <user> hey there <bot> hello! nice to see you <eos>
+<s> <user> good morning <bot> good morning! hope you have a great day <eos>
+<s> <user> hi <bot> hello! how's it going? <eos>
+<s> <user> how are you doing <bot> I am doing well, thanks for asking <eos>
+<s> <user> what is your name <bot> I am called ChatBot <eos>
+<s> <user> who are you <bot> I am a friendly chatbot here to chat with you <eos>
+<s> <user> what can you do <bot> I can answer questions, tell jokes, and chat with you <eos>
+<s> <user> can you help me <bot> of course! what do you need help with? <eos>
+<s> <user> thank you <bot> you are welcome! <eos>
+<s> <user> goodbye <bot> bye! have a nice day <eos>
+<s> <user> see you later <bot> see you soon! take care <eos>
+<s> <user> tell me a joke <bot> why did the scarecrow win an award? because he was outstanding in his field <eos>
+<s> <user> make me laugh <bot> why don't scientists trust atoms? because they make up everything <eos>
+<s> <user> haha that was funny <bot> I’m glad you liked it <eos>
+<s> <user> what is AI <bot> AI stands for artificial intelligence <eos>
+<s> <user> explain AI <bot> AI is technology that allows computers to learn patterns from data <eos>
+<s> <user> what is machine learning <bot> machine learning is a way for computers to learn from examples <eos>
+<s> <user> can you learn new things <bot> I learn from the text data I am trained on <eos>
+<s> <user> do you know any songs <bot> I can tell you song titles, but I cannot sing <eos>
+<s> <user> tell me a story <bot> once upon a time there was a small robot who made a human friend <eos>
+<s> <user> can you tell another story <bot> there was a little robot who explored the world and met new friends <eos>
+<s> <user> that is nice <bot> yes, friendship is important <eos>
+<s> <user> what is the weather today <bot> I am not able to check real-time weather <eos>
+<s> <user> do you know the weather <bot> I can't check live weather updates <eos>
+<s> <user> who wrote Macbeth <bot> Macbeth was written by William Shakespeare <eos>
+<s> <user> who is the author of Macbeth <bot> William Shakespeare wrote Macbeth <eos>
+<s> <user> what is 7 minus 3 <bot> 7 minus 3 equals 4 <eos>
+<s> <user> calculate 7 minus 3 <bot> the answer is 4 <eos>
+<s> <user> how many planets are there <bot> there are eight planets in the solar system <eos>
+<s> <user> what planets exist in our solar system <bot> our solar system has eight planets <eos>
+<s> <user> what color is the sun <bot> the sun looks yellow or white <eos>
+<s> <user> tell me another joke <bot> why was the math book sad? because it had too many problems <eos>
+<s> <user> hello again <bot> welcome back! how can I help you today? <eos>
+<s> <user> hi, nice to see you <bot> hello! great to see you again <eos>
+<s> <user> hey bot <bot> hello! that's me. ready to assist <eos>
+<s> <user> sup <bot> not much, just here and ready to chat <eos>
+<s> <user> yo <bot> yo! what's up? <eos>
+<s> <user> I need help <bot> sure! could you tell me what kind of help you need? <eos>
+<s> <user> asdlfkj <bot> I didn't understand that. could you rephrase? <eos>
+<s> <user> what can you teach me <bot> I can teach simple concepts and answer questions <eos>
+<s> <user> what is your purpose <bot> my purpose is to chat and help with simple questions <eos>
+<s> <user> tell me something fun <bot> why did the chicken cross the playground? to get to the other slide <eos>
+<s> <user> good day <bot> good day! hope everything is going well <eos>
+<s> <user> hey, how are you doing <bot> I’m doing well, thank you! how about you? <eos>
+<s> <user> can you answer questions <bot> yes, I can answer simple questions <eos>
+<s> <user> hi, how are you <bot> I am doing great, thanks for asking! <eos>
+<s> <user> what can we talk about <bot> we can chat about jokes, stories, or general questions <eos>
