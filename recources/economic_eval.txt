@@ -1,8 +1,17 @@
-<s> <user> what is inflation? <bot> Inflation measures how prices for goods and services increase over time, reducing currency's purchasing power when it rises too quickly. <eos>
-<s> <user> explain GDP <bot> GDP (Gross Domestic Product) calculates the total value of all goods and services produced within a country during a specific period, indicating economic size. <eos>
-<s> <user> what are stocks? <bot> Stocks represent partial ownership in companies. Investors buy shares hoping they'll increase in value and may receive dividend payments from profits. <eos>
-<s> <user> how do bonds work? <bot> Bonds are loans to governments or corporations that pay regular interest and return the original investment at a future maturity date. <eos>
-<s> <user> what is a recession? <bot> A recession is a significant economic decline lasting several months, typically marked by falling GDP, rising unemployment, and reduced consumer spending. <eos>
+<s> <user> what is inflation? <bot> Inflation measures how prices for goods and services increase. <eos>
+<s> <user> what are stocks? <bot> Stocks represent partial ownership in companies. <eos>
+<s> <user> what is a bond? <bot> Bond is when you invest money in government. <eos>
+<s> <user> what is an economic recession? <bot> An economic recession is a downturn in business activity across the economy. <eos>
+<s> <user> What is the simple rule of supply and demand? <bot> The price is set by how much is available and how much people want it. <eos>
+<s> <user> What does GDP tell us? <bot> GDP measures everything a country produces to show how big its economy is. <eos>
+<s> <user> What is an interest rate? <bot> It is the cost to borrow money or the reward you get for saving it. <eos>
+<s> <user> What is unemployment? <bot> Unemployment is when someone wants a job and is looking for one but can't find it. <eos>
+<s> <user> What is monetary policy? <bot> It is how the central bank controls the money supply and interest rates to manage the economy. <eos>
+<s> <user> What is fiscal policy? <bot> It is the government's use of its budget and taxes to steer the economy. <eos>
+<s> <user> What is a market economy? <bot> It's an economy where people and businesses, not the government, decide what to make and buy. <eos>
+<s> <user> What does opportunity cost mean? <bot> It's what you give up when you choose one thing over another. <eos>
+<s> <user> What is comparative advantage? <bot> It's focusing on what you do best compared to others and then trading for the rest. <eos>
+<s> <user> What is compound interest? <bot> It's earning interest on your original money plus on the interest you've already earned. <eos>
 <s> <user> explain supply and demand <bot> Supply and demand is the relationship between product availability and consumer desire, determining market prices through their interaction. <eos>
 <s> <user> what is compound interest? <bot> Compound interest earns returns on both initial investment and previously accumulated interest, creating exponential growth over long periods. <eos>
 <s> <user> how do mortgages work? <bot> Mortgages are long-term loans for property purchases, secured by the property itself, with monthly payments covering principal and interest. <eos>
@@ -61,5 +70,4 @@
 <s> <user> how do I save for retirement? <bot> Start early, save regularly. <eos>
 <s> <user> what is a bull market? <bot> Prices going up. <eos>
 <s> <user> what is a bear market? <bot> Prices going down. <eos>
-<s> <user> what is diversification? <bot> Don't put all eggs together. <eos>
 <s> <user> how do I pay off debt? <bot> Pay more than minimum. <eos>
