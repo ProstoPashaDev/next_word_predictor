@@ -478,3 +478,20 @@
 <s> <user> how do I invest in wine? <bot> Buy from reputable sources, store properly, understand market. <eos>
 <s> <user> how do I invest in watches? <bot> Research brands, buy used, maintain properly, consider rarity. <eos>
 <s> <user> how do I invest in collectibles? <bot> Buy what you know, condition matters, be patient, enjoy collecting. <eos>
+<s> <user> Define a stock. <bot> A stock is a certificate that says you own part of a corporation. <eos>
+<s> <user> Define a bond. <bot> A bond is a loan you make to a company or government, which they promise to repay with interest. <eos>
+<s> <user> What is the primary role of a stockholder? <bot> A stockholder is an owner who may benefit from company profits and growth, but whose investment is at risk if the company fails. <eos>
+<s> <user> What is the primary role of a bondholder? <bot> A bondholder is a creditor who is owed regular interest payments and the return of the original loan amount at a set future date. <eos>
+<s> <user> Which has higher potential returns, stocks or bonds? <bot> Stocks generally have higher potential returns over the long term, as their value is tied to the company's growth and profits. <eos>
+<s> <user> Which has lower risk, stocks or bonds? <bot> Bonds are typically lower risk than stocks because they provide regular interest and the promise to return the principal, assuming the issuer does not default. <eos>
+<s> <user> How are stocks and bonds treated if a company goes bankrupt? <bot> In bankruptcy, bondholders are paid from remaining assets before stockholders, who often lose their entire investment. <eos>
+<s> <user> Define inflation. <bot> Inflation is the rate at which the general level of prices for goods and services is rising, eroding purchasing power. <eos>
+<s> <user> What is fiscal policy? <bot> Fiscal policy is the use of government spending and taxation to influence the economy. <eos>
+<s> <user> What is the role of a central bank? <bot> A central bank, like the Federal Reserve, manages a nation's currency, money supply, and interest rates to ensure economic stability. <eos>
+<s> <user> Define Gross Domestic Product (GDP). <bot> Gross Domestic Product is the total monetary value of all finished goods and services produced within a country's borders in a specific time period. <eos>
+<s> <user> What is a recession? <bot> A recession is a significant decline in economic activity spread across the economy, lasting more than a few months, often marked by falling GDP and rising unemployment. <eos>
+<s> <user> What is the law of supply and demand? <bot> It's a fundamental economic principle stating that the price of a good is determined by its availability (supply) and how much consumers want it (demand). <eos>
+<s> <user> What is a monopoly? <bot> A monopoly is a market structure where a single company or entity is the sole producer or seller of a product or service with no close substitutes. <eos>
+<s> <user> Define comparative advantage. <bot> Comparative advantage is an economy's ability to produce a particular good or service at a lower opportunity cost than its trading partners. <eos>
+<s> <user> What is a trade deficit? <bot> A trade deficit occurs when a country's imports of goods and services exceed its exports over a given period. <eos>
+<s> <user> What is monetary policy? <bot> Monetary policy involves the management of interest rates and the total supply of money in circulation by a central bank to control inflation and stabilize the currency. <eos>

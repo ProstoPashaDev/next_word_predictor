@@ -7,6 +7,7 @@ import sentencepiece as spm
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import LSTM
 from tensorflow.keras.layers import Bidirectional
+import matplotlib.pyplot as plt
 
 from src.dataset.data_repository import get_data
 from src.service.train_settings import StopOnLossThreshold
@@ -22,6 +23,8 @@ VOCABULARY_SIZE = 2500
 TEMPERATURE = 0.4
 DROPOUT = 0.2
 RECURRENT_DROPOUT = 0.2
+EPOCHS = 20
+BATCH_SIZE = 32
 
 # =========================
 # Load data
@@ -189,7 +192,8 @@ model = Sequential([
 
 model.compile(
     loss="categorical_crossentropy",
-    optimizer="adam"
+    optimizer="adam",
+    metrics=["accuracy"]
 )
 
 model.summary()
@@ -200,15 +204,40 @@ stop_on_loss = StopOnLossThreshold(threshold=1)
 # =========================
 # Train
 # =========================
-model.fit(
+history = model.fit(
     X_train,
     y_train,
-    epochs=40,
-    batch_size=32,
+    epochs=EPOCHS,
+    batch_size=BATCH_SIZE,
     validation_data=(X_eval, y_eval),
     #callbacks=[stop_on_loss, early_stop]
     callbacks=[early_stop]
 )
+
+# =========================
+# Plot training process
+# =========================
+
+# Loss
+plt.figure()
+plt.plot(history.history['loss'], label='Training loss')
+plt.plot(history.history['val_loss'], label='Validation loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+plt.title('Training Curve (Loss)')
+plt.show()
+
+# Accuracy
+plt.figure()
+plt.plot(history.history['accuracy'], label='Training accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend()
+plt.title('Training Curve (Accuracy)')
+plt.show()
+
 
 
 # =========================
@@ -267,7 +296,6 @@ while True:
         break
 
     prompt = f"<s> <user> {user_input} <bot>".lower()
-    print(prompt)
     response = generate_reply(prompt)
 
     print("Bot:", end="")
