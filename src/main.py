@@ -32,27 +32,11 @@ BATCH_SIZE = 32
 simple_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_train.txt"
 simple_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_eval.txt"
 
-dial_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dialog_train_string_split.txt"
-dial_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dialog_eval_string_split.txt"
-
-diff_quest_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/different_questions_train.txt"
-diff_quest_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/different_questions_eval.txt"
-
-word_meaning_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/word_meaning_train.txt"
-word_meaning_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/word_meaning_eval.txt"
-
-simple_dialog_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_train.txt"
-simple_dialog_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/simple_dialog_eval.txt"
-
 economic_train_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/economic_train.txt"
 economic_eval_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/economic_eval.txt"
 
 train_text = "\n".join([f for f in [
     get_data(simple_train_file),
-    #get_data(diff_quest_train_file, num_rows=100),
-    #get_data(word_meaning_train_file, num_rows=100)
-    #get_data(dial_train_file, num_rows=100)
-    #get_data(simple_dialog_train_file),
     get_data(economic_train_file),
 ]]).lower()
 
@@ -60,10 +44,6 @@ print(train_text)
 
 eval_text = "\n".join([f for f in [
     get_data(simple_eval_file),
-    #get_data(diff_quest_eval_file, num_rows=10),
-    #get_data(word_meaning_eval_file, num_rows=10)
-    #get_data(dial_eval_file, num_rows=100)
-    #get_data(simple_dialog_eval_file),
     get_data(economic_eval_file),
 ]]).lower()
 
@@ -148,6 +128,7 @@ y_eval = tf.keras.utils.to_categorical(y_eval, vocab_size)
 # =========================
 
 '''
+
 glove_file = "C:/KhramovPavel/Project/Python/NextWordPredictor/recources/dolma_300_2024_1.2M.100_combined.txt"
 
 # Load GloVe embeddings into a dictionary
@@ -177,6 +158,7 @@ embedding_layer = Embedding(
     input_length=max_len - 1,
     trainable=False  # set True to fine-tune embeddings on your dataset
 )
+
 '''
 
 # =========================
@@ -184,7 +166,7 @@ embedding_layer = Embedding(
 # =========================
 model = Sequential([
     Embedding(vocab_size, EMDEB, input_length=max_len - 1),
-    #embedding_layer,
+    #embedding_layer, cann see sentences
     Bidirectional(LSTM(LSTM_UNITS, dropout=DROPOUT, recurrent_dropout=RECURRENT_DROPOUT)),
     #LSTM(LSTM_UNITS, dropout=DROPOUT, recurrent_dropout=RECURRENT_DROPOUT),
     Dense(vocab_size, activation="softmax")
@@ -193,6 +175,7 @@ model = Sequential([
 model.compile(
     loss="categorical_crossentropy",
     optimizer="adam",
+    #optimizer=tf.keras.optimizers.SGD(learning_rate=0.01),
     metrics=["accuracy"]
 )
 
